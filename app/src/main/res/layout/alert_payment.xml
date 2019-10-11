@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="7dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Выберите способ оплаты"
+        android:textSize="25dp"
+        android:textColor="@color/colorTextGlobal" />
+
+    <ImageView
+
+        android:id="@+id/visa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/payment"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_marginStart="15dp"
+            android:id="@+id/pay24"
+            android:src="@drawable/pay24"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            />
+
+    </LinearLayout>
+
+<!--    <GridLayout-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:columnCount="2">-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/qiwi"-->
+<!--            android:src="@drawable/qiwi"-->
+<!--            android:layout_width="150dp"-->
+<!--            android:layout_height="100dp" />-->
+
+
+<!--        <ImageView-->
+<!--            android:id="@+id/pay24"-->
+<!--            android:src="@drawable/pay24"-->
+<!--            android:layout_width="150dp"-->
+<!--            android:layout_height="100dp"-->
+<!--            />-->
+
+<!--    </GridLayout>-->
+
+<!--    <GridLayout-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:columnCount="2"-->
+<!--        >-->
+
+<!--        <ImageView-->
+<!--            android:layout_marginBottom="9dp"-->
+<!--            android:id="@+id/yandex"-->
+<!--            android:src="@drawable/yandex"-->
+<!--            android:layout_width="150dp"-->
+<!--            android:layout_height="100dp" />-->
+
+
+<!--        <ImageView-->
+<!--            android:layout_marginBottom="9dp"-->
+
+<!--            android:layout_width="150dp"-->
+<!--            android:layout_height="100dp"-->
+
+<!--            />-->
+
+<!--    </GridLayout>-->
+
+
+</LinearLayout>

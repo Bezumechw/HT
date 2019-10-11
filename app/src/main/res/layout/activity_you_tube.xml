@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Lessons.Char_lesson.Test.YouTubeActivity"
+    android:orientation="vertical"
+    android:columnCount="2"
+    android:background="#090808">
+
+    <ImageView
+        android:id="@+id/backVid"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:onClick="onBack"
+        android:layout_margin="10dp"
+        android:src="@drawable/ic_arrow"
+        android:elevation="3dp"/>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        tools:ignore="WebViewLayout">
+        <WebView
+            android:layout_width="wrap_content"
+            android:layout_height="400dp"
+            android:id="@+id/youtube"
+            android:layout_centerInParent="true">
+        </WebView>
+
+    </FrameLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#070707"
+        android:layout_centerInParent="false"
+        android:layout_marginTop="410dp"
+        android:id="@+id/button"/>
+
+
+<LinearLayout
+        android:saveEnabled="true"
+        android:id="@+id/l2"
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:layout_centerInParent="false"
+        android:layout_marginTop="410dp"
+        android:background="#070101"
+        android:orientation="vertical"
+        android:elevation="4dp">
+
+        <ImageView
+            android:id="@+id/im"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="end"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="62dp"
+            android:elevation="5dp"
+            android:onClick="landscape" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00AEEF</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorText">#6c8cc7</color>
+    <color name="colorText2">#fff</color>
+    <color name="background">#367bf5</color>
+    <color name="colorStudent">#00AEEF</color>
+    <color name="backgroundGreen">#86D511</color>
+    <color name="textR">#F94586</color>
+    <color name="backgroundGray">#F9F9F9</color>
+    <color name="colorTextGlobal">#013f7c</color>
+    <color name="Red">#FF0000</color>
+    <color name="Black">#0E0D0D</color>
+
+
+
+    <color name="background_Alphabet">#85D510</color>
+    <color name="background_Beginner">#F79D4D</color>
+    <color name="background_Pre_Intermediate">#ED1C24</color>
+    <color name="background_Intermediate">#003F79</color>
+    <color name="background_Upper_Intermediate">#8C100E</color>
+    <color name="background_Advanced">#D2AB67</color>
+</resources>

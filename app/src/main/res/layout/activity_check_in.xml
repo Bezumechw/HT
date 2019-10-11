@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    android:padding="15dp"
+    tools:context=".Auth.Register.CheckInActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:layout_marginHorizontal="15dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginBottom="20dp"
+                        android:src="@drawable/logo" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Имя"
+                        android:textColor="@color/background"
+                        android:textSize="18sp" />
+
+                    <EditText
+
+                        android:id="@+id/editName"
+                        android:layout_width="match_parent"
+                        android:layout_height="40sp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/rounded_edittext"
+                        android:padding="5dp"
+                        android:textCursorDrawable="@drawable/editcursor"
+                        android:textSize="18sp" />
+
+                    <!--<LinearLayout-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:orientation="horizontal">-->
+
+                    <!--<TextView-->
+                    <!--android:id="@+id/t1"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="40sp"-->
+                    <!--android:paddingTop="9dp"-->
+                    <!--android:text="Номер телефона"-->
+                    <!--android:textColor="@color/background"-->
+                    <!--android:textSize="18sp" />-->
+
+                    <!--<com.hbb20.CountryCodePicker-->
+
+                    <!--android:id="@+id/ccp"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:background="#fff"-->
+                    <!--app:ccpDialog_searchEditTextTint="@color/colorStudent"-->
+                    <!--app:ccpDialog_textColor="#030000"-->
+                    <!--app:ccp_autoDetectCountry="true"-->
+                    <!--app:ccp_autoDetectLanguage="true"-->
+                    <!--app:ccp_contentColor="@color/background"-->
+                    <!--app:ccp_countryPreference="kg"-->
+                    <!--app:ccp_showFullName="true"-->
+                    <!--app:ccp_showPhoneCode="false" />-->
+
+
+                    <!--</LinearLayout>-->
+
+                    <!--<LinearLayout-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:orientation="horizontal">-->
+
+                    <!--<TextView-->
+                    <!--android:id="@+id/phone1"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="35dp"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:background="@drawable/rounded_edittext3"-->
+                    <!--android:gravity="center"-->
+                    <!--android:paddingVertical="8sp"-->
+                    <!--android:paddingBottom="5dp"-->
+                    <!--android:text="+996"-->
+                    <!--android:textColor="#000000"-->
+                    <!--android:textSize="18sp" />-->
+
+
+                    <!--<EditText-->
+                    <!--android:id="@+id/edNumber"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="40sp"-->
+                    <!--android:layout_marginBottom="10dp"-->
+                    <!--android:layout_weight="3"-->
+                    <!--android:background="@drawable/rounded_edittext2"-->
+                    <!--android:inputType="phone"-->
+                    <!--android:padding="5dp"-->
+                    <!--android:textCursorDrawable="@color/colorStudent"-->
+                    <!--android:textSize="18sp" />-->
+
+
+                    <!--</LinearLayout>-->
+
+                    <TextView
+                        android:id="@+id/m1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40sp"
+                        android:paddingTop="15dp"
+                        android:text="Эл.адрес или номер телефона"
+                        android:textColor="@color/background"
+                        android:textSize="18sp" />
+
+                    <EditText
+                        android:padding="5dp"
+                        android:id="@+id/editEmail"
+                        android:layout_width="match_parent"
+                        android:layout_height="40sp"
+                        android:background="@drawable/rounded_edittext"
+                        android:textCursorDrawable="@drawable/editcursor"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/m2"
+                        android:padding="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Формат телефона 996  555123456"
+                        android:layout_marginBottom="10dp"
+                        android:textColor="@color/background"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Пароль"
+                        android:padding="5dp"
+                        android:textColor="@color/background"
+                        android:textSize="18sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:background="@drawable/rounded_edittext"
+                        android:orientation="horizontal">
+
+                        <EditText
+                            android:id="@+id/editPassword"
+                            android:layout_gravity="center"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="5"
+                            android:background="@drawable/raund_button"
+                            android:padding="5dp"
+                            android:textCursorDrawable="@drawable/editcursor"
+                            android:textSize="18sp"
+                            />
+
+                        <ImageView
+                            android:layout_marginEnd="5dp"
+                            android:id="@+id/imageGlaz"
+                            android:layout_width="30sp"
+                            android:layout_height="40dp"
+                            android:onClick="vDrugoyGlaz"
+                            android:src="@drawable/glaz" />
+
+                    </LinearLayout><TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Повторите пароль"
+                        android:padding="5dp"
+                        android:textColor="@color/background"
+                        android:textSize="18sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:background="@drawable/rounded_edittext"
+                        android:orientation="horizontal">
+
+                        <EditText
+                            android:id="@+id/editPassword2"
+                            android:layout_gravity="center"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="5"
+                            android:background="@drawable/raund_button"
+                            android:padding="5dp"
+                            android:textCursorDrawable="@drawable/editcursor"
+                            android:textSize="18sp"
+                            />
+
+                        <ImageView
+                            android:layout_marginEnd="5dp"
+                            android:id="@+id/imageGlaz1"
+                            android:layout_width="30sp"
+                            android:layout_height="40dp"
+                            android:onClick="vDrugoyGlaz1"
+                            android:src="@drawable/glaz" />
+
+                    </LinearLayout>
+
+
+                    <Button
+                        android:id="@+id/onToSend1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:layout_gravity="center"
+                        android:layout_marginVertical="10dp"
+                        android:background="@drawable/radius"
+                        android:onClick="onToSend"
+                        android:paddingHorizontal="30dp"
+                        android:text="Отправить"
+                        android:textColor="@color/colorText2"
+                        android:textSize="16sp" />
+
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_centerInParent="true">
+
+                    <ProgressBar
+                        android:id="@+id/progressBar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        />
+
+
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <TextView
+                android:paddingTop="90dp"
+                android:id="@+id/condition"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:onClick="onCondition"
+                android:gravity="center"
+                android:text="нажимая на кнопку отправить вы соглашаетесь с условиями конфиденциальности"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+
+</RelativeLayout>

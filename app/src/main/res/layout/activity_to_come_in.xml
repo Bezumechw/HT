@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    android:padding="15dp"
+    tools:context=".Auth.Login.ToComeInActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_marginHorizontal="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="20dp"
+                    android:src="@drawable/logo" />
+
+                <!--<TextView-->
+                <!--android:id="@+id/t1"-->
+                <!--android:text="Номер телефона"-->
+                <!--android:textColor="@color/background"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:textSize="18sp"/>-->
+
+                <!--<EditText-->
+                <!--android:id="@+id/editNumber"-->
+                <!--android:textSize="18sp"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="40sp"-->
+                <!--android:padding="5dp"-->
+                <!--android:inputType="phone"-->
+                <!--android:background="@drawable/rounded_edittext"-->
+                <!--android:layout_marginBottom="10dp"-->
+                <!--android:textCursorDrawable="@color/colorStudent"/>-->
+
+                <TextView
+                    android:id="@+id/m1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Эл.адрес или номер телефона"
+                    android:textColor="@color/background"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/editName"
+                    android:layout_width="match_parent"
+                    android:layout_height="40sp"
+                    android:background="@drawable/rounded_edittext"
+                    android:padding="5dp"
+                    android:textCursorDrawable="@drawable/editcursor"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/m2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:padding="5dp"
+                    android:text="Формат телефона 996  555123456"
+                    android:textColor="@color/background"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="Пароль"
+                    android:textColor="@color/background"
+                    android:textSize="18sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/rounded_edittext"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:layout_gravity="center"
+                        android:id="@+id/editPassword"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="5"
+                        android:background="@drawable/raund_button"
+                        android:padding="5dp"
+                        android:hint="имеется проверка Заглавных букв"
+                        android:textCursorDrawable="@drawable/editcursor"
+                        android:textSize="18sp" />
+
+                    <ImageView
+                        android:id="@+id/imageGlaz"
+                        android:layout_width="30sp"
+                        android:layout_height="40sp"
+                        android:layout_marginEnd="5dp"
+                        android:onClick="vGlaz"
+                        android:src="@drawable/glaz" />
+
+                </LinearLayout>
+
+                <Button
+
+                    android:id="@+id/vhod"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:layout_marginVertical="10dp"
+                    android:background="@drawable/radius"
+                    android:onClick="onToComeIn"
+                    android:paddingHorizontal="30dp"
+                    android:text="Войти"
+                    android:textColor="@color/colorText2"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:orientation="vertical">
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <ProgressBar
+        android:id="@+id/progressBarV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorStudent"
+        android:layout_centerInParent="true"/>
+
+</RelativeLayout>

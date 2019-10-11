@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    android:padding="15dp"
+    tools:context=".Auth.AuthActivity">
+
+    <ImageView
+        android:src="@drawable/logo"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="15dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_centerInParent="true">
+
+            <Button
+                android:onClick="onToComeIn"
+                android:text="Войти"
+                android:paddingHorizontal="43dp"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:textSize="16sp"
+                android:layout_gravity="center"
+                android:textColor="@color/colorText2"
+                android:background="@drawable/radius"
+                android:layout_marginVertical="20dp"/>
+
+            <Button
+                android:onClick="onCheckIn"
+                android:text="Регистрация"
+                android:paddingHorizontal="13dp"
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:textSize="16sp"
+                android:layout_gravity="center"
+                android:textColor="@color/colorText2"
+                android:background="@drawable/radius"/>
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</LinearLayout>

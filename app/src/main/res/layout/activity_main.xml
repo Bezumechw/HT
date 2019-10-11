@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    tools:context=".Activity.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:padding="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:src="@drawable/logo"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginHorizontal="15dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="15dp"/>
+
+            <LinearLayout
+                android:layout_marginTop="65dp"
+                android:layout_marginEnd="42dp"
+                android:layout_marginStart="42dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+                <Button
+                    android:onClick="onAboutUs"
+                    android:background="@drawable/button_selector"
+                    android:layout_width="match_parent"
+                    android:layout_height="32dp"
+                    android:text="О нас"
+                    android:textSize="18dp"
+                    android:paddingStart="20dp"
+                    android:textColor="#6C8CC7"
+                    android:gravity="center_vertical"/>
+                <Button
+                    android:onClick="onStudent"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/button_selector"
+                    android:layout_width="match_parent"
+                    android:layout_height="32dp"
+                    android:text="Обучение"
+                    android:textSize="18dp"
+                    android:paddingStart="20dp"
+                    android:textColor="#6C8CC7"
+                    android:gravity="center_vertical"/>
+                <Button
+                    android:onClick="onInstruction"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/button_selector"
+                    android:layout_width="match_parent"
+                    android:layout_height="32dp"
+                    android:text="Инструкция"
+                    android:textSize="18dp"
+                    android:paddingStart="20dp"
+                    android:textColor="#6C8CC7"
+                    android:gravity="center_vertical"/>
+                <Button
+                    android:onClick="onOurTeam"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/button_selector"
+                    android:layout_width="match_parent"
+                    android:layout_height="32dp"
+                    android:text="Наша команда"
+                    android:textSize="18dp"
+                    android:paddingStart="20dp"
+                    android:textColor="#6C8CC7"
+                    android:gravity="center_vertical"/>
+                <Button
+                    android:onClick="onOurBranches"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/button_selector"
+                    android:layout_width="match_parent"
+                    android:layout_height="32dp"
+                    android:text="Наши филиалы"
+                    android:textSize="18dp"
+                    android:paddingStart="20dp"
+                    android:textColor="#6C8CC7"
+                    android:gravity="center_vertical"/>
+                <Button
+                    android:onClick="onNews"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/button_selector"
+                    android:layout_width="match_parent"
+                    android:layout_height="32dp"
+                    android:text="Новости"
+                    android:textSize="18dp"
+                    android:paddingStart="20dp"
+                    android:textColor="#6C8CC7"
+                    android:gravity="center_vertical"/>
+                <Button
+                    android:onClick="onContacts"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/button_selector"
+                    android:layout_width="match_parent"
+                    android:layout_height="32dp"
+                    android:text="Контакты"
+                    android:textSize="18dp"
+                    android:paddingStart="20dp"
+                    android:textColor="#6C8CC7"
+                    android:gravity="center_vertical"/>
+                <Button
+                    android:onClick="onPersonalArea"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/button_selector"
+                    android:layout_width="match_parent"
+                    android:layout_height="32dp"
+                    android:text="Личный Кабинет"
+                    android:textSize="18dp"
+                    android:paddingStart="20dp"
+                    android:textColor="#6C8CC7"
+                    android:gravity="center_vertical"/>
+                <Button
+                    android:onClick="onReviews"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/button_selector"
+                    android:layout_width="match_parent"
+                    android:layout_height="32dp"
+                    android:text="Отзывы"
+                    android:textSize="18dp"
+                    android:paddingStart="20dp"
+                    android:textColor="#6C8CC7"
+                    android:gravity="center_vertical"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</LinearLayout>

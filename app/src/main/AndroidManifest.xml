@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="kg.sunrise.hightime">
+
+    <application
+        android:name=".Api.App"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/kznak"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/znak_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".Lessons.Char_lesson.Video2Activity" />
+        <activity android:name=".Auth.Register.Dogovor.DogovorActivity" />
+        <activity android:name=".Lessons.Char_lesson.Test.YouTubeActivity" />
+        <activity android:name=".Lvl.Instruction.InstructionActivity" />
+        <activity android:name=".Lvl.LvlActivity" />
+        <activity android:name=".Lessons.Char_lesson.Test.AnswersActivity" />
+        <activity android:name=".Reviews.ReviewTwo.ReviewTwoActivity"
+            android:windowSoftInputMode="stateVisible|adjustResize"/>
+        <activity android:name=".Reviews.ReviewOne.ReviewOneActivity" />
+        <activity android:name=".Lessons.Char_lesson.Test.TestLessonsActivity" />
+        <activity android:name=".Lessons.Char_lesson.CharActivity" />
+        <activity
+            android:name=".Lessons.LessonsActivity"
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name=".Activity.MainActivity" />
+        <activity android:name=".Auth.Register.CheckInActivity"
+            android:windowSoftInputMode="stateVisible|adjustResize">
+        </activity>
+        <activity android:name=".Auth.Login.ToComeInActivity"
+            android:windowSoftInputMode="stateVisible|adjustResize">
+        </activity>
+        <activity android:name=".Level.LevelActivity" />
+        <activity android:name=".Activity.OurBranchesActivity" />
+        <activity android:name=".Activity.AboutUsActivity" />
+        <activity android:name=".Activity.OurTeamActivity" />
+        <activity android:name=".Lessons.StudentActivity" />
+        <activity android:name=".Activity.LoadActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".News.NewsActivity" />
+        <activity android:name=".Contact.ContactActivity" />
+        <activity android:name=".Lessons.Char_lesson.VideoActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden" />
+        <activity android:name=".News.NewsSecond.NewsSecondActivity" />
+        <activity android:name=".Level.Test.FirstTestActivity" />
+        <activity android:name=".Auth.AuthActivity" />
+    </application>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+</manifest>

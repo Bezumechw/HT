@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".Lessons.Char_lesson.VideoActivity">
+
+
+    <ImageView
+        android:id="@+id/backVid"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:onClick="onBack"
+        android:layout_margin="8dp"
+        android:src="@drawable/ic_arrow"
+        app:layout_anchor="@id/video_view"
+        android:elevation="3dp"/>
+
+    <ImageView
+        android:id="@+id/download"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="60dp"
+        android:elevation="3dp"
+        android:onClick="onYoutube"
+        android:visibility="gone"
+        android:src="@drawable/you_tube"
+        app:layout_anchor="@id/video_view" />
+
+    <ImageView
+        android:layout_above="@+id/video_view"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:src="@drawable/poloska"
+        android:elevation="3dp"
+        android:scaleType="centerCrop"/>
+
+    <cn.jzvd.JzvdStd
+        android:id="@+id/video_view"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_centerInParent="true"/>
+
+    <!--<VideoView-->
+    <!--android:id="@+id/videoView"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_centerInParent="true"/>-->
+</RelativeLayout>

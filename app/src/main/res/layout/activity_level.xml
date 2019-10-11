@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    android:padding="15dp"
+    tools:context=".Level.LevelActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:onClick="onBack"
+                    android:src="@drawable/ic_arrow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginTop="27dp"/>
+
+                <ImageView
+                    android:layout_alignParentTop="true"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/line_student"
+                    android:layout_width="230dp"
+                    android:layout_height="90dp"/>
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="15dp"
+                android:textSize="16sp"
+                android:textColor="@color/colorTextGlobal"/>
+
+            <ImageView
+                android:layout_gravity="center"
+                android:src="@drawable/line_blue_student"
+                android:layout_width="170dp"
+                android:layout_height="60dp"/>
+
+            <Button
+                android:layout_marginTop="30dp"
+                android:onClick="onTest"
+                android:text="Пройти тест"
+                android:paddingHorizontal="30dp"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_gravity="center"
+                android:textColor="@color/colorText2"
+                android:background="@drawable/radius"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

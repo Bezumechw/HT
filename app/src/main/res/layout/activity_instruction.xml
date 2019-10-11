@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Lvl.Instruction.InstructionActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:text="Ваш лицевой счет"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:textColor="#0A0808"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/ls"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:textColor="#0A0808"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Инструкция"
+                    android:gravity="center"
+                    android:textSize="30dp"
+
+                    android:textColor="@color/colorTextGlobal"/>
+                <TextView
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Вы - зарегистрированный пользователь на нашем сайте. Вам присвоен персональный номер лицевого счета, который необходим Вам при пополнении баланса."
+                    android:textSize="18dp"
+                    android:textColor="#0A0808"/>
+                <TextView
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Этот лицевой счет(на картинках ниже) приведен в качестве примера. У каждого пользователя он свой - его можно увидеть вверху страницы. Ни в коем случае не пополняйте баланс лицевого счета, указанного на картинке."
+                    android:textSize="18dp"
+
+                    android:textColor="#F50B0B"/>
+                <TextView
+                    android:layout_margin="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1. На главной странице терминала, выберите раздел «Другие услуги»"
+                    android:textSize="18dp"
+                    android:textColor="#0A0808" />
+                <ImageView
+                    android:id="@+id/ins1"
+                    android:adjustViewBounds = "true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    />
+                <TextView
+                    android:layout_margin="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2. На следующей странице зайдите в раздел “Другие услуги”"
+                    android:textSize="18dp"
+
+                    android:textColor="#0A0808"/>
+                <ImageView
+                    android:id="@+id/ins2"
+                    android:adjustViewBounds = "true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    />
+                <TextView
+                    android:layout_margin="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="3. В разделе “Другие услуги” перейдите на страницу №2"
+                    android:textSize="18dp"
+                    android:textColor="#0A0808"/>
+                <ImageView
+                    android:id="@+id/ins3"
+                    android:adjustViewBounds = "true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    />
+                <TextView
+                    android:layout_margin="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="4. На второй странице выберите
+                    “High Time”"
+                    android:textSize="18dp"
+                    android:textColor="#0A0808"/>
+                <ImageView
+                    android:id="@+id/ins4"
+                    android:adjustViewBounds = "true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    />
+                <TextView
+                    android:layout_margin="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="5. Введите свой лицевой счет"
+                    android:textSize="18dp"
+                    android:textColor="#0A0808"/>
+                <ImageView
+                    android:id="@+id/ins5"
+                    android:adjustViewBounds = "true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    />
+                <TextView
+                    android:layout_margin="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="6. Убедитесь в правильности данных. Если все верно, нажмите “Далее”"
+                    android:textSize="18dp"
+                    android:textColor="#0A0808"/>
+                <ImageView
+                    android:id="@+id/ins6"
+                    android:adjustViewBounds = "true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    />
+                <TextView
+                    android:layout_margin="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="7. Внесите деньги в купюроприемник"
+                    android:textSize="18dp"
+
+                    android:textColor="#0A0808"/>
+                <ImageView
+                    android:id="@+id/ins7"
+                    android:adjustViewBounds = "true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    />
+            </LinearLayout>
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+</LinearLayout>

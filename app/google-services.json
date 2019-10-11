@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "177844209981",
+    "firebase_url": "https://fir-379f1.firebaseio.com",
+    "project_id": "fir-379f1",
+    "storage_bucket": "fir-379f1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:177844209981:android:b938de650842843b",
+        "android_client_info": {
+          "package_name": "kg.sunrise.hightime"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "177844209981-nl05hshij0c4gq31e7p36mhi2p2occr3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "kg.sunrise.hightime",
+            "certificate_hash": "1218eb27e95927b4bd260026ac54f32c3222a914"
+          }
+        },
+        {
+          "client_id": "177844209981-s5fn127lmfdsuob4l07t7j9poe836q9k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTRpiaqfrJwAaQmU0OsGNzwxyZKxPVcBE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "177844209981-s5fn127lmfdsuob4l07t7j9poe836q9k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
